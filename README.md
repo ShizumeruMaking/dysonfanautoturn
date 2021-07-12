@@ -6,7 +6,8 @@ the weights for the object detection can be downloaded here: https://pjreddie.co
 
 
 download them and just drop them in that folder and you should be good. (sorry to the people who actually know what they're doing)
-#setup
+
+# setup
 after extracting, do pip install -r requirements.txt. this should install all the necessary libraries to run the code.
 
 then, go through the instructions to set up homebridge:https://github.com/homebridge/homebridge
