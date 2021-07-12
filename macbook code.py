@@ -2,7 +2,6 @@
 from collections import OrderedDict
 import numpy as np
 import cv2
-import argparse
 import dlib
 import imutils
 from pynput.mouse import Button, Controller
@@ -15,8 +14,6 @@ classes = None
 with open("yolov3.txt", 'r') as f:
     classes = [line.strip() for line in f.readlines()]
 mouse=Controller()
-
-# List devices available on the Dyson account
 
 change = 0;
 prevch = 0;
